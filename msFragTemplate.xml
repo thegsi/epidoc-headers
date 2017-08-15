@@ -1,0 +1,35 @@
+<msFrag>
+  <msIdentifier>
+    <msName>#OB:Title# : #SUBOB:Subtitle#</msName>
+    <settlement>[...city/town where object is currently located...]</settlement>
+    <repository>[...institution where object is held...]</repository>
+    <idno>#IN:Inscription ID#</idno>
+  </msIdentifier>
+  <physDesc>
+      <objectDesc>
+          <supportDesc>
+            <support>
+              <material>#OB:Description/material#</material>
+              <objectType>#OB:Description/object type#</objectType>
+              <extent>
+                <dimensions unit="cm">
+                  <width>#OB:Description/width#</width>
+                  <height>#OB:Description/height#</height>
+                  <depth>#OB:Description/depth#</depth>
+                </dimensions>
+                <measure type="weight" quantity="#OB:Description/weight#" unit="gram">#OB:Description/weight# grams</measure>
+              </extent>
+              <p>#OB:Description/Details#</p>
+            </support>
+          </supportDesc>
+      </objectDesc>
+  </physDesc>
+  <history>
+    <origin>
+      <origPlace>#IN:History/Created/Place#</origPlace>
+      <origDate>#IN:History/Created/Date#</origDate>
+    </origin>
+    <provenance type="found">#IN:History/Found/Date#, #IN:History/Found/Place#</provenance>
+    <p>#IN:History/Details#</p>
+  </history>
+</msFrag>

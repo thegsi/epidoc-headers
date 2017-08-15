@@ -1,0 +1,106 @@
+<teiHeader>
+    <fileDesc>
+        <titleStmt>
+            <title />
+            <editor>D&#225;niel Balogh</editor>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Siddham - The South Asia Inscriptions Database</authority>
+            <idno type="siddham_internal_identifier">IN00001</idno>
+        </publicationStmt>
+        <sourceDesc>
+            <msDesc>
+                <msIdentifier>
+                  <msName />
+                  <repository>[...institution where object is held...]</repository>
+                  <idno>IN00001</idno>
+                </msIdentifier>
+                <physDesc>
+                    <objectDesc>
+                        <supportDesc>
+                          <support>
+                            <material>stone / sandstone</material>
+                            <objectType>pillar</objectType>
+                            <extent>
+                              <dimensions unit="cm">
+                                <width>66-97</width>
+                                <height>1070</height>
+                                <depth>66-97</depth>
+                              </dimensions>
+                              <measure quantity="#OB:Description/weight#" type="weight" unit="gram" />
+                            </extent>
+                            <p>A round, monolithic sandstone column. Beside Samudragupta's prasasti, it also bears two inscriptions by Asoka as well as a number of mediaeval inscriptions, some of which are written between and over the lines of Samudragupta's inscription.</p>
+                          </support>
+                        </supportDesc>
+                        <layoutDesc>
+                          <layout>
+                            <dimensions unit="cm">
+                              <width>200</width>
+                              <height>160</height>
+                            </dimensions>
+                            <p>The last line of the inscription is 180 cm above the point where the column starts from its present pedestal.</p>
+                          </layout>
+                        </layoutDesc>
+                    </objectDesc>
+                    <handDesc>
+                      <p>
+                        <height unit="cm">1-2</height>
+                        #IN:Hand/description#
+                      </p>
+                    </handDesc>
+                    <decoDesc>
+                      <p>None.</p>
+                    </decoDesc>
+                </physDesc>
+                <history>
+                  <origin>
+                    <origPlace>?Kausambi</origPlace>
+                    <origDate />
+                  </origin>
+                  <provenance type="found" />
+                  <provenance type="found" />
+                  <p>The pillar was found, and still remains, in Allahabad fort. It was possibly moved here from Kausambi by Firoz Sah or another early Delhi Sultan.</p>
+                </history>
+                <msFrag>
+                  <msIdentifier>
+                    <msName>Allahabad Pillar</msName>
+                    <p>:</p>
+                    <msName>#SUBOB:Subtitle#</msName>
+                    <settlement>[...city/town where object is currently located...]</settlement>
+                    <repository>[...institution where object is held...]</repository>
+                    <idno>IN00001</idno>
+                  </msIdentifier>
+                  <physDesc>
+                      <objectDesc>
+                          <supportDesc>
+                            <support>
+                              <material>stone / sandstone</material>
+                              <objectType>pillar</objectType>
+                              <extent>
+                                <dimensions unit="cm">
+                                  <width>66-97</width>
+                                  <height>1070</height>
+                                  <depth>66-97</depth>
+                                </dimensions>
+                                <measure quantity="#OB:Description/weight#" type="weight" unit="gram" />
+                              </extent>
+                              <p>A round, monolithic sandstone column. Beside Samudragupta's prasasti, it also bears two inscriptions by Asoka as well as a number of mediaeval inscriptions, some of which are written between and over the lines of Samudragupta's inscription.</p>
+                            </support>
+                          </supportDesc>
+                      </objectDesc>
+                  </physDesc>
+                  <history>
+                    <origin>
+                      <origPlace>?Kausambi</origPlace>
+                      <origDate />
+                    </origin>
+                    <provenance type="found" />
+                    <p>,</p>
+                    <provenance type="found" />
+                    <p>The pillar was found, and still remains, in Allahabad fort. It was possibly moved here from Kausambi by Firoz Sah or another early Delhi Sultan.</p>
+                  </history>
+                </msFrag>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+</teiHeader>

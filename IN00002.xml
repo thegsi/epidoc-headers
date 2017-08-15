@@ -1,0 +1,131 @@
+﻿<lg n="1" met="vasantatilaka?">
+<lg type="halfverse" n="ab">
+<l>
+<lb n="1"/>
+<gap reason="lost" extent="unknown"/></l>
+<l>
+<lb n="2"/>
+<gap reason="lost" extent="unknown"/></l>
+</lg><lg type="halfverse" n="cd"><l>
+<lb n="3"/>
+<gap reason="lost" extent="unknown"/></l>
+<l>
+<lb n="4"/>
+<gap reason="lost" extent="unknown"/></l>
+</lg></lg>
+<lg n="2" met="vasantatilaka">
+<lg type="halfverse" n="ab">
+<l>
+<lb n="5"/>
+<seg met="==.=...=..=.=*"><gap reason="illegible" quantity="14" unit="character" /></seg></l>
+<l>
+<lb n="6"/>
+<seg met="==.=...=..=.=*"><gap reason="illegible" quantity="14" unit="character" /></seg></l>
+</lg><lg type="halfverse" n="cd"><l>
+<lb n="7"/>
+ <seg met="==.=...=."><gap reason="illegible" quantity="9" unit="character" /></seg>  suvarṇṇa-dāne</l>
+<l>
+<lb n="8"/>
+ <seg met="=="><gap reason="illegible" quantity="2" unit="character" /></seg> ritā nṛpatayaḥ pṛthu-rāghavādyāḥ <num value="2">2</num>
+</l>
+</lg></lg>
+<lg n="3" met="vasantatilaka">
+<lg type="halfverse" n="ab">
+<l>
+<lb n="9"/>
+ <seg met="=="><gap reason="illegible" quantity="2" unit="character" /></seg>  babhūva dhanadāntaka-tuṣṭi-kopa-
+</l>
+<l>
+<lb n="11"/>
+ <seg met="=="><gap reason="illegible" quantity="2" unit="character" /></seg> pya pārthiva-gaṇas sakalaḥ pṛthivyām
+</l>
+</lg><lg type="halfverse" n="cd"><l>
+<lb n="12"/>
+ <seg met="=="><gap reason="illegible" quantity="2" unit="character" /></seg> <unclear>sva</unclear>-rājya-vibhava-<unclear>ddh</unclear>rutam āsthito bhūt <num value="3">3</num>
+</l>
+</lg></lg>
+<lg n="4" met="vasantatilaka">
+<lg type="halfverse" n="ab">
+<l>
+<lb n="13"/>
+ <seg met="=="><gap reason="illegible" quantity="2" unit="character" /></seg> <unclear>va bha</unclear>kti-naya-vikkrama-toṣitena
+</l>
+<l>
+<lb n="14"/>
+ <seg met="="><gap reason="illegible" quantity="1" unit="character" /></seg>  rāja-śabda-vibhavair abhiṣecanādyaiḥ</l>
+</lg><lg type="halfverse" n="cd"><l>
+<lb n="15"/>
+ <seg met="=="><gap reason="illegible" quantity="2" unit="character" /></seg> nitāḥ parama-tuṣti-puraskṛtena
+</l>
+<l>
+<lb n="16"/>
+ <seg met="==."><gap reason="illegible" quantity="3" unit="character" /></seg> vo nṛpatir aprativāryya-vīryyaḥ <num value="4">4</num>
+</l>
+</lg></lg>
+<lg n="5" met="vasantatilaka">
+<lg type="halfverse" n="ab">
+<l>
+<lb n="17"/>
+ <seg met="=="><gap reason="illegible" quantity="2" unit="character" /></seg> sya pauruṣa-parākkrama-datta-śulkā
+</l>
+<l>
+<lb n="18"/>
+ <seg met="=="><gap reason="illegible" quantity="2" unit="character" /></seg> śva-ratna-dhana-dhānya-samṛddhi-yuktā
+</l>
+</lg><lg type="halfverse" n="cd"><l>
+<lb n="19"/>
+ <seg met="=="><gap reason="illegible" quantity="2" unit="character" /></seg> ṅgṛheṣu muditā bahu-putra-pautra-
+</l>
+<l>
+<lb n="20"/>
+<supplied reason="lost">sa</supplied>ṅkrāmiṇī kulavadhū<sic>ḥ</sic> vratinī niviṣṭā <num value="5">5</num></l>
+</lg></lg>
+<lg n="6" met="vasantatilaka">
+<lg type="halfverse" n="ab">
+<l>
+<lb n="21"/>
+<supplied reason="lost" cert="low">yasyo</supplied>rjjitaṃ samara-karmma parākrameddhaṃ</l>
+<l>
+<lb n="22"/>
+ <seg met="=="><gap reason="illegible" quantity="2" unit="character" /></seg>  yaśaḥ suvipula<sic>m</sic> paribambhramīti
+</l>
+</lg><lg type="halfverse" n="cd"><l>
+<lb n="23"/>
+ <seg met="=="><gap reason="illegible" quantity="2" unit="character" /></seg> ṇi yasya ripavaś ca raṇorjjitāni
+</l>
+<l>
+<lb n="24"/>
+<supplied reason="lost">sva</supplied>pnāntareṣv api vicintya paritrasanti <num value="6">6</num></l>
+</lg></lg>
+<lg n="7" met="vasantatilaka">
+<lg type="halfverse" n="ab">
+<l>
+<lb n="25"/>
+<seg met="==.=...=..=.=*"><gap reason="illegible" quantity="14" unit="character" /></seg></l>
+<l>
+<seg met="="><gap reason="illegible" quantity="1" unit="character" /></seg> <unclear>pta</unclear>ḥ sva-bhoga-nagarairikiṇa-pradeśe
+</l>
+</lg><lg type="halfverse" n="cd"><l>
+<lb n="26"/>
+<seg met="==.=...=..=.=*"><gap reason="illegible" quantity="14" unit="character" /></seg></l>
+<l>
+<supplied reason="lost">saṃ</supplied><unclear>sth</unclear>āpitas sva-yaśasaḥ paribṛ<sic>ṅ</sic>hanārttham <num value="7">7</num>
+</l>
+</lg></lg>
+<lg n="8" met="vasantatilaka">
+<lg type="halfverse" n="ab">
+<l>
+<lb n="27"/>
+<seg met="==.=...=..=.=*"><gap reason="illegible" quantity="14" unit="character" /></seg></l>
+<l>
+<seg met="==."><gap reason="illegible" quantity="3" unit="character" /></seg> vo nṛpatir āha yadā  <seg met=".=*"><gap reason="illegible" quantity="3" unit="character" /></seg></l>
+</lg><lg type="halfverse" n="cd"><l>
+<lb n="27"/>
+<seg met="==.=...=..=.=*"><gap reason="illegible" quantity="14" unit="character" /></seg></l>
+<l>
+<seg met="==.=...=..=.=*"><gap reason="illegible" quantity="14" unit="character" /></seg></l>
+</lg></lg>
+<p>
+<gap reason="lost" extent="unknown"/>
+</p>
+
