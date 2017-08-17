@@ -30,7 +30,10 @@ for inscriptionId in inscriptionIds:
              elif tag.text[0:3] == '#OB':
                  csvMetadataField = tag.text[4:len(tag.text)-1]
                  csvMetadataCell = dfObject.loc[csvMetadataField][objectId]
-                 tag.text = csvMetadataCell
+                 if len(csvMetadataCell) == 0 and tag.tag in ['measure']:
+                     tag.text = 'not available'
+                 else:
+                     tag.text = csvMetadataCell
 
     if len(dfObject.loc['Child Objects'][objectId]):
         childObjectCell = dfObject.loc['Child Objects'][objectId]
@@ -48,19 +51,20 @@ for inscriptionId in inscriptionIds:
                         csvMetadataField = cTag.text[4:len(cTag.text)-1]
                         csvMetadataCell = dfInscription.loc[csvMetadataField][inscriptionId]
                         cTag.text = csvMetadataCell
-                    if cTag.text[0:3] == '#OB':
+                    if cTag.text[0:3] == '#SO':
                         csvMetadataField = cTag.text[4:len(cTag.text)-1]
-                        csvMetadataCell = dfObject.loc[csvMetadataField][childObjectId]
-                        cTag.text = csvMetadataCell
+                        if len(csvMetadataCell) == 0 and cTag.tag not in ['measure', 'width', 'height', 'depth']:
+                            csvMetadataCell = dfObject.loc[csvMetadataField][objectId]
+                            cTag.text = csvMetadataCell
+                        elif len(csvMetadataCell) == 0 and cTag.tag in ['measure']:
+                            cTag.text = 'not available'
+                        else:
+                            csvMetadataCell = dfObject.loc[csvMetadataField][childObjectId]
+                            cTag.text = csvMetadataCell
 
-            # Insert templates into msfrags tag in epidocHeaderTemplate
-            msfrags = headerRoot.findall('.//msFrags')[0]
-            print(childObjectId)
-            msfrags.append(childObjectRoot)
-
-    # print(headerRoot.findall('.//title')[0].text)
-    # print(inscriptionId)
-    # print(objectId)
+            # Insert templates into msdesc tag in epidocHeaderTemplate
+            msDesc = headerRoot.findall('.//msDesc')[0]
+            msDesc.append(childObjectRoot)
 
     teiHeader = headedRoot.findall('.//{http://www.tei-c.org/ns/1.0}teiHeader')[0]
     teiHeader.append(headerRoot)
@@ -72,4 +76,9 @@ for inscriptionId in inscriptionIds:
     teiText.append(snippetRoot)
 
     fileName = './headed/' + inscriptionId + '.xml'
-    headedTree.write(fileName)
+    headedTree.write(fileName, encoding='utf-8')
+
+    headedFileName = './headed/' + inscriptionId + '.xml'
+    declaredFileName = './declared/' + inscriptionId + '.xml'
+    with open(headedFileName, 'rb') as f, open(declaredFileName, 'wb') as g:
+        g.write('<?xml version="1.0" encoding="UTF-8"?>\n<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>\n<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>\n{}'.format(f.read()))

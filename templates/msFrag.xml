@@ -1,37 +1,35 @@
 <msFrag>
   <msIdentifier>
-    <msName>#OB:Title#</msName>
-    <msName>#OB:Subtitle#</msName>
-    <!-- <settlement>[...city/town where object is currently located...]</settlement> -->
-    <repository>#OB:History/Latest/Place#</repository>
-    <idno>#IN:Inscription ID#</idno>
+    <msName>#SO:Subtitle#</msName>
+    <repository>#SO:History/Latest/Place#</repository>
+    <idno type="siddham_object_identifier">#SO:Object ID#</idno>
   </msIdentifier>
   <physDesc>
       <objectDesc>
           <supportDesc>
             <support>
-              <material>#OB:Description/material#</material>
-              <objectType>#OB:Description/object type#</objectType>
+              <material>#SO:Description/material#</material>
+              <objectType>#SO:Description/object type#</objectType>
               <extent>
                 <dimensions unit="cm">
-                  <width>#OB:Description/dim/width#</width>
-                  <height>#OB:Description/dim/height#</height>
-                  <depth>#OB:Description/dim/depth#</depth>
+                  <width>#SO:Description/dim/width#</width>
+                  <height>#SO:Description/dim/height#</height>
+                  <depth>#SO:Description/dim/depth#</depth>
                 </dimensions>
-                <measure type="weight" quantity="#OB:Description/weight#" unit="gram">#OB:Description/dim/weight#</measure>
+                <measure type="weight" unit="gram">#SO:Description/dim/weight#</measure>
               </extent>
-              <p>#OB:Description/Details#</p>
+              <p>#SO:Description/Details#</p>
             </support>
           </supportDesc>
       </objectDesc>
   </physDesc>
   <history>
     <origin>
-      <origPlace>#OB:History/Created/Place#</origPlace>
-      <origDate>#OB:History/Created/Date#</origDate>
+      <origPlace>#SO:History/Created/Place#</origPlace>
+      <origDate>#SO:History/Created/Date#</origDate>
     </origin>
-    <provenance type="found">#OB:History/Found/Date#</provenance>
-    <provenance type="found">#OB:History/Found/Place#</provenance>
-    <p>#OB:History/Details#</p>
+    <provenance type="found">#SO:History/Found/Date#</provenance>
+    <provenance type="found">#SO:History/Found/Place#</provenance>
+    <p>#SO:History/Details#</p>
   </history>
 </msFrag>

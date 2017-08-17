@@ -7,16 +7,14 @@
     </titleStmt>
     <publicationStmt>
         <authority>Siddham - The South Asia Inscriptions Database</authority>
-        <idno type="siddham_internal_identifier">#IN:Inscription ID#</idno>
+        <idno type="siddham_inscription_identifier">#IN:Inscription ID#</idno>
     </publicationStmt>
     <sourceDesc>
         <msDesc>
             <msIdentifier>
               <msName>#OB:Title#</msName>
-              <!-- Only a single field in the metadata -->
-              <!-- <settlement>[...city/town where object is currently located...]</settlement> -->
+              <idno type="siddham_object_identifier">#OB:Object ID#</idno>
               <repository>#OB:History/Latest/Place#</repository>
-              <idno>#IN:Inscription ID#</idno>
             </msIdentifier>
             <physDesc>
                 <objectDesc>
@@ -30,7 +28,7 @@
                             <height>#OB:Description/dim/height#</height>
                             <depth>#OB:Description/dim/depth#</depth>
                           </dimensions>
-                          <measure type="weight" quantity="#OB:Description/weight#" unit="gram">#OB:Description/dim/weight#</measure>
+                          <measure type="weight" unit="gram">#OB:Description/dim/weight#</measure>
                         </extent>
                         <p>#OB:Description/Details#</p>
                       </support>
@@ -46,10 +44,8 @@
                     </layoutDesc>
                 </objectDesc>
                 <handDesc>
-                  <p>
-                    <height unit="cm">#IN:Hand/letter size#</height>
-                    #IN:Hand/description#
-                  </p>
+                  <height unit="cm">#IN:Hand/letter size#</height>
+                  <p>#IN:Hand/description#</p>
                 </handDesc>
                 <decoDesc>
                   <p>#IN:Layout/decoration#</p>
@@ -60,13 +56,8 @@
                 <origPlace>#OB:History/Created/Place#</origPlace>
                 <origDate>#OB:History/Created/Date#</origDate>
               </origin>
-              <provenance type="found">#OB:History/Found/Date#</provenance>
-              <provenance type="found">#OB:History/Found/Place#</provenance>
               <p>#OB:History/Details#</p>
             </history>
-            <!-- Requires an enclosing tag -->
-            <msFrags>
-            </msFrags>
       </msDesc>
     </sourceDesc>
 </fileDesc>

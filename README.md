@@ -1,2 +1,2 @@
 # epidoc-headers
-Create epidoc headers for Siddham metadata
+Create epidoc headers for Siddham metadata using python
