@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teiHeader>
+    <fileDesc>
+        <titleStmt>
+            <title>#IN:Title#</title>
+            <editor>Dániel Balogh</editor>
+            <!-- My electronic editions generally follow printed editions, but there are only a very few that I have not compared with a facsimile and modified where I saw fit, so it isn't too cheeky to say I'm the editor of these texts so far. We might add here that the electronic edition has relied on the edition or editions listed in the bibliography. On the longer term we might want to include an Editors field in the inscriptions table, which would contain the names of people who have edited the inscription text (not other database content). Editor names or IDs could be separated by commas or an agreed-on separator, and here we could put #IN:Editors(1,2, ... n)# If we do this, it may be a good idea to distinguish original editor from subsequent editors, and to add a date field to each editor's work. And while we're at it, one more field for a brief description of the editing done would also be necessary. (The earlier epidoc template included an <encodingDesc> elment as the last item of the TEI header, but this is not present in the latest template, so I do not use it in this file. The person responsible for encoding is the original editor.) -->
+        </titleStmt>
+        <publicationStmt>
+            <authority>Siddham - The South Asia Inscriptions Database</authority>
+            <idno type="siddham_internal_identifier">#IN:Inscription ID#</idno><!-- This is distinct from the idno under msDesc so for clarity's sake it should probably be typed. Perhaps the stable URL could also be included here in addition to or instead of the internal ID. -->
+        </publicationStmt>
+        <sourceDesc>
+            <msDesc>
+                <msIdentifier>
+                  <msName>#OB:Title#</msName>
+                  <!-- We should use the title field for the object as the msname of the (physical) inscription. In addition, alternative titles should be included at this point, so: if #IN:Alternative Titles# is not empty, then iterate the following as many times as there are alternative titles (separated by commas or an agreed-on separator) -->
+                  <!--
+                    <altIdentifier>
+                      <msName>#IN:Alternative Titles(1,2, ... n)#</msName>
+                    </altIdentifier>
+                  -->
+                  <!-- We'll need to work more on the rest of msIdentifier info. For some, very few, objects, we actually have museum names, sometimes even accession numbers. But many of these will be dated, which is why I have included an "Authority" field so that we have a biblioreference for these data. In any case, it may be a good idea to divide up the database table to contain separate fields for settlement, repository and idno, even if these fields will only be filled for a few items. Where I now have "in situ" in the table, that will probably need to be changed to a settlement name and, possibly, some sort of geolocation information. -->
+                  <!-- That still leaves us with no way to include the date and cited authority for such information - I'd really appreciate suggestions on how to do that. -->
+                  <settlement>[...city/town where object is currently located...]</settlement>
+                  <repository>[...institution where object is held...]</repository>
+                  <idno>#IN:Inscription ID#</idno>
+                </msIdentifier>
+                <physDesc>
+                    <objectDesc>
+                        <supportDesc>
+                          <support>
+                            <material>#OB:Description/material#</material>
+                            <objectType>#OB:Description/object type#</objectType>
+                            <!-- The contents of these above two db fields are free text for now, but we'll probably want to use a controlled vocabulary for them later on. -->
+                            <extent>
+                              <dimensions unit="cm">
+                                <width>#OB:Description/width#</width>
+                                <height>#OB:Description/height#</height>
+                                <depth>#OB:Description/depth#</depth>
+                              </dimensions>
+                              <!-- I'm very uncertain about how to put weight data in. We have weight for some copperplates, but not for anything else, so maybe there's no need to include weight in a separate list of dimensions; instead, it could just be part of the text description below. -->
+                              <measure type="weight" quantity="#OB:Description/weight#" unit="gram">#OB:Description/weight# grams</measure>
+                            </extent>
+                            <p>#OB:Description/Details#</p>
+                            <!-- The detailed description of the object is free text, but some of its contents, mainly dimensions, weight, possibly material and object type, could be tagged in here. In fact, the contents of this db field could also be a separate xml snippet in the filesystem if we go that way. -->
+                          </support>
+                        </supportDesc>
+                        <layoutDesc>
+                          <layout>
+                            <dimensions unit="cm">
+                              <width>#IN:Layout/width#</width>
+                              <height>#IN:Layout/height#</height>
+                            </dimensions>
+                            <p>#IN:Layout/description#</p>
+                            <!-- I'm not sure if <p> is allowed here; the new version of the epidoc template just gives free text mingled with dimensions in the layout element, but the old version included <p>. If we do use p, then maybe the dimensions should also be within the p. -->
+                          </layout>
+                        </layoutDesc>
+                    </objectDesc>
+                    <handDesc>
+                      <p>
+                        <height unit="cm">#IN:Hand/letter size#</height>
+                        #IN:Hand:description#
+                      </p>
+                      <!-- Again, not sure if using <p> is fine and if yes, whether or not the height item should be inside or outside the p. -->
+                    </handDesc>
+                    <decoDesc>
+                      <p>#IN:Layout/decoration#</p>
+                      <!-- Perhaps dispense with the p. Also, I'm not sure we want "deco" at all; there are very very few items that contain actual decoration (in which category I do not classify e.g. a sculpture on whose pedestal the inscription is), so the few notes other than "None" in this field could be rearranged to Hand/description and/or Layout/description. -->
+                    </decoDesc>
+                </physDesc>
+                <history>
+                  <origin>
+                    <origPlace>#IN:History/Created/Place#</origPlace>
+                    <!-- Within origPlace we might want to wrap the text in <placeName type="ancient"></placeName>. -->
+                    <origDate>#IN:History/Created/Date#</origDate>
+                  </origin>
+                  <provenance type="found">#IN:History/Found/Date#, #IN:History/Found/Place#</provenance>
+                  <p>#IN:History/Details#</p>
+                  <!-- I'm not sure we need anything in History apart from the text field Details. As you can see I've left most of the other fields in the data table empty (their information, when known, can be gleaned from the freetext details), and structured history data are not required in epidoc. So maybe get rid of everything other than Details in History; or, as a midway solution, keep the Created date and Place fields which, if populated, may be useful if they can be used as search parameters. (But we have a separate date in the inscription table, and there's a reason for that: occasionally the object has a history before the inscription, perhaps involving earlier inscriptions than the one edited here. This may be another point in favour of discarding the structured history and just showing the dates elsewhere.) -->
+                </history>
+                <!-- IF THE OBJECT ASSOCIATED WITH THE INSCRIPTION HAS SUBORDINATE OBJECTS (#OB:Child Objects# is not empty, then IN ADDITION TO the above content, msDesc should include one iteration of msFrag for each of these subordinate objects); elements within that should, as usual, appear only if the relevant db cells are not empty. All the uncertainties noted in the main msDesc section apply, of course, to this part as well.-->
+
+                <msFrag>
+                  <msIdentifier>
+                    <msName>#OB:Title# : #SUBOB:Subtitle#</msName>
+                    <settlement>[...city/town where object is currently located...]</settlement>
+                    <repository>[...institution where object is held...]</repository>
+                    <idno>#IN:Inscription ID#</idno>
+                  </msIdentifier>
+                  <physDesc>
+                      <objectDesc>
+                          <supportDesc>
+                            <support>
+                              <material>#OB:Description/material#</material>
+                              <objectType>#OB:Description/object type#</objectType>
+                              <extent>
+                                <dimensions unit="cm">
+                                  <width>#OB:Description/width#</width>
+                                  <height>#OB:Description/height#</height>
+                                  <depth>#OB:Description/depth#</depth>
+                                </dimensions>
+                                <measure type="weight" quantity="#OB:Description/weight#" unit="gram">#OB:Description/weight# grams</measure>
+                              </extent>
+                              <p>#OB:Description/Details#</p>
+                            </support>
+                          </supportDesc>
+                      </objectDesc>
+                  </physDesc>
+                  <history>
+                    <origin>
+                      <origPlace>#IN:History/Created/Place#</origPlace>
+                      <origDate>#IN:History/Created/Date#</origDate>
+                    </origin>
+                    <provenance type="found">#IN:History/Found/Date#, #IN:History/Found/Place#</provenance>
+                    <p>#IN:History/Details#</p>
+                  </history>
+                </msFrag>
+
+                -->
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+</teiHeader>

@@ -1,106 +1,220 @@
-<teiHeader>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng-Latn" xml:space="preserve">
+    <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title />
-            <editor>D&#225;niel Balogh</editor>
-        </titleStmt>
-        <publicationStmt>
-            <authority>Siddham - The South Asia Inscriptions Database</authority>
-            <idno type="siddham_internal_identifier">IN00001</idno>
-        </publicationStmt>
-        <sourceDesc>
-            <msDesc>
-                <msIdentifier>
-                  <msName />
-                  <repository>[...institution where object is held...]</repository>
-                  <idno>IN00001</idno>
-                </msIdentifier>
-                <physDesc>
-                    <objectDesc>
-                        <supportDesc>
-                          <support>
-                            <material>stone / sandstone</material>
-                            <objectType>pillar</objectType>
-                            <extent>
-                              <dimensions unit="cm">
-                                <width>66-97</width>
-                                <height>1070</height>
-                                <depth>66-97</depth>
-                              </dimensions>
-                              <measure quantity="#OB:Description/weight#" type="weight" unit="gram" />
-                            </extent>
-                            <p>A round, monolithic sandstone column. Beside Samudragupta's prasasti, it also bears two inscriptions by Asoka as well as a number of mediaeval inscriptions, some of which are written between and over the lines of Samudragupta's inscription.</p>
-                          </support>
-                        </supportDesc>
-                        <layoutDesc>
-                          <layout>
-                            <dimensions unit="cm">
-                              <width>200</width>
-                              <height>160</height>
-                            </dimensions>
-                            <p>The last line of the inscription is 180 cm above the point where the column starts from its present pedestal.</p>
-                          </layout>
-                        </layoutDesc>
-                    </objectDesc>
-                    <handDesc>
-                      <p>
-                        <height unit="cm">1-2</height>
-                        #IN:Hand/description#
-                      </p>
-                    </handDesc>
-                    <decoDesc>
-                      <p>None.</p>
-                    </decoDesc>
-                </physDesc>
-                <history>
-                  <origin>
-                    <origPlace>?Kausambi</origPlace>
-                    <origDate />
-                  </origin>
-                  <provenance type="found" />
-                  <provenance type="found" />
-                  <p>The pillar was found, and still remains, in Allahabad fort. It was possibly moved here from Kausambi by Firoz Sah or another early Delhi Sultan.</p>
-                </history>
-                <msFrag>
-                  <msIdentifier>
-                    <msName>Allahabad Pillar</msName>
-                    <p>:</p>
-                    <msName>#SUBOB:Subtitle#</msName>
-                    <settlement>[...city/town where object is currently located...]</settlement>
-                    <repository>[...institution where object is held...]</repository>
-                    <idno>IN00001</idno>
-                  </msIdentifier>
-                  <physDesc>
-                      <objectDesc>
-                          <supportDesc>
-                            <support>
-                              <material>stone / sandstone</material>
-                              <objectType>pillar</objectType>
-                              <extent>
-                                <dimensions unit="cm">
-                                  <width>66-97</width>
-                                  <height>1070</height>
-                                  <depth>66-97</depth>
-                                </dimensions>
-                                <measure quantity="#OB:Description/weight#" type="weight" unit="gram" />
-                              </extent>
-                              <p>A round, monolithic sandstone column. Beside Samudragupta's prasasti, it also bears two inscriptions by Asoka as well as a number of mediaeval inscriptions, some of which are written between and over the lines of Samudragupta's inscription.</p>
-                            </support>
-                          </supportDesc>
-                      </objectDesc>
-                  </physDesc>
-                  <history>
-                    <origin>
-                      <origPlace>?Kausambi</origPlace>
-                      <origDate />
-                    </origin>
-                    <provenance type="found" />
-                    <p>,</p>
-                    <provenance type="found" />
-                    <p>The pillar was found, and still remains, in Allahabad fort. It was possibly moved here from Kausambi by Firoz Sah or another early Delhi Sultan.</p>
-                  </history>
-                </msFrag>
-            </msDesc>
-        </sourceDesc>
-    </fileDesc>
-</teiHeader>
+    <titleStmt>
+        <title>Allahabad Prasasti of Samudragupta</title>
+        <editor>D&#225;niel Balogh</editor>
+    </titleStmt>
+    <publicationStmt>
+        <authority>Siddham - The South Asia Inscriptions Database</authority>
+        <idno type="siddham_internal_identifier">IN00001</idno>
+    </publicationStmt>
+    <sourceDesc>
+        <msDesc>
+            <msIdentifier>
+              <msName>Allahabad Pillar</msName>
+              
+              
+              <repository>in situ</repository>
+              <idno>IN00001</idno>
+            </msIdentifier>
+            <physDesc>
+                <objectDesc>
+                    <supportDesc>
+                      <support>
+                        <material>stone / sandstone</material>
+                        <objectType>pillar</objectType>
+                        <extent>
+                          <dimensions unit="cm">
+                            <width>66-97</width>
+                            <height>1070</height>
+                            <depth>66-97</depth>
+                          </dimensions>
+                          <measure quantity="#OB:Description/weight#" type="weight" unit="gram" />
+                        </extent>
+                        <p>A round, monolithic sandstone column. Beside Samudragupta's pra&#347;asti, it also bears two inscriptions by A&#347;oka as well as a number of mediaeval inscriptions, some of which are written between and over the lines of Samudragupta's inscription.</p>
+                      </support>
+                    </supportDesc>
+                    <layoutDesc>
+                      <layout>
+                        <dimensions unit="cm">
+                          <width>200</width>
+                          <height>160</height>
+                        </dimensions>
+                        <p>The last line of the inscription is 180 cm above the point where the column starts from its present pedestal.</p>
+                      </layout>
+                    </layoutDesc>
+                </objectDesc>
+                <handDesc>
+                  <p>
+                    <height unit="cm">01-Feb</height>
+                    #IN:Hand/description#
+                  </p>
+                </handDesc>
+                <decoDesc>
+                  <p>None.</p>
+                </decoDesc>
+            </physDesc>
+            <history>
+              <origin>
+                <origPlace>?Kau&#347;&#257;mb&#299;</origPlace>
+                <origDate />
+              </origin>
+              <provenance type="found" />
+              <provenance type="found" />
+              <p>The pillar was found, and still remains, in Allahabad fort. It was possibly moved here from Kau&#347;&#257;mb&#299; by Firoz &#346;&#257;h or another early Delhi Sultan.</p>
+            </history>
+            
+            <msFrags>
+            </msFrags>
+      </msDesc>
+    </sourceDesc>
+</fileDesc></teiHeader>
+    <text>
+        <body>
+        <div type="edition" xml:lang="skt">&#65279;<p>
+<lb n="1" />
+<unclear cert="low">ya&#7717;</unclear> <unclear>kulyai&#7717; svai</unclear> <gap precision="low" quantity="1" reason="illegible" unit="character" /> #&#257;tasa <gap extent="unknown" reason="illegible" />
+<lb n="2" />
+<unclear>yasya</unclear> <gap extent="unknown" reason="illegible" />
+<lb n="3" />
+<gap precision="low" quantity="1" reason="illegible" unit="character" /> <unclear>pu&#7747;va</unclear> <gap extent="unknown" reason="illegible" /> <unclear cert="low">tra</unclear> <gap extent="unknown" reason="illegible" />
+<lb n="4" />
+<gap precision="low" quantity="1" reason="illegible" unit="character" />sph<choice><unclear>u</unclear><unclear>&#257;</unclear></choice>ra<unclear>dva&#7747;</unclear> <gap quantity="6" reason="illegible" unit="character" /> <unclear cert="low">k&#7779;a&#7717; sphu</unclear><unclear>&#7789;od</unclear><unclear cert="low">dhva&#7747;s</unclear>ita <gap precision="low" quantity="3" reason="illegible" unit="character" /> <unclear>p</unclear>ra<unclear>v</unclear>i<unclear>ta</unclear>ta <gap extent="unknown" reason="illegible" />
+</p>
+<lg met="sragdhar&#257;" n="1">
+<lg n="ab" type="halfverse">
+<l>
+<lb n="5" />
+yasya <unclear cert="low">praj&#241;&#257;nu</unclear><unclear>&#7779;a</unclear>&#7749;g<unclear>o</unclear>cita-sukha-manasa&#7717; &#347;&#257;stra-tattv&#257;rttha-bharttu&#7717;</l>
+<l>
+<seg met="=="><gap quantity="2" reason="illegible" unit="character" /></seg> stabdho <seg met=".=="><gap quantity="3" reason="illegible" unit="character" /></seg> <unclear cert="low">ha</unclear><unclear>ni</unclear> <seg met="....="><gap quantity="5" reason="illegible" unit="character" /></seg> <unclear cert="low">nocch&#7771;</unclear> <seg met="==.=*"><gap quantity="5" reason="illegible" unit="character" /></seg></l>
+</lg><lg n="cd" type="halfverse"><l>
+<lb n="6" />
+<supplied cert="low" reason="undefined">sa</supplied><unclear cert="low">t</unclear>-<unclear>k&#257;</unclear>vya-&#347;r&#299;-vir<choice><sic>au</sic><corr>o</corr></choice>dh&#257;n budha-gu&#7751;ita-gu&#7751;&#257;j&#241;&#257;hat&#257;n eva k&#7771;tv&#257;
+</l>
+<l>
+vidval-loke <supplied reason="omitted">'</supplied>vi<supplied cert="low" reason="undefined">n&#257;&#347;i</supplied> s<unclear>phu</unclear>&#7789;a-bahu-kavit&#257;-k&#299;rtti r&#257;jya<unclear>&#7747;</unclear> bhunakti
+</l>
+</lg></lg>
+<lg met="&#347;&#257;rd&#363;lavikr&#299;&#7693;ita" n="2">
+<lg n="ab" type="halfverse">
+<l>
+<lb n="7" />
+<supplied cert="low" reason="undefined">&#257;</supplied><unclear>ry</unclear>y<supplied cert="low" reason="undefined">ai</supplied><unclear>h</unclear>&#299;ty upaguhya bh&#257;va-pi&#347;unair utkar&#7751;&#7751;itai romabhi&#7717;
+</l>
+<l>
+sabhye&#7779;&#363;cchvasite&#7779;u tulya-kula-ja-m<unclear>l</unclear>&#257;n&#257;nanodv&#299;<unclear>k&#7779;i</unclear><supplied reason="undefined">ta</supplied><unclear>&#7717;</unclear></l>
+</lg><lg n="cd" type="halfverse"><l>
+<lb n="8" />
+sn<unclear>e</unclear>ha-vy&#257;lu&#7735;itena b&#257;&#7779;pa-guru&#7751;&#257; tattvek&#7779;i&#7751;&#257; cak&#7779;u&#7779;&#257;</l>
+<l>
+ya&#7717; pitr&#257;bhihito nir&#299;k<unclear>&#7779;ya</unclear> nikhi<supplied reason="undefined">l&#257;&#7747;</supplied> <unclear cert="low">p&#257;hy evam</unclear> <supplied reason="undefined">u</supplied>rv<supplied reason="undefined">v</supplied>&#299;m i<unclear>t</unclear>i
+</l>
+</lg></lg>
+<lg met="sragdhar&#257;" n="3">
+<lg n="ab" type="halfverse">
+<l>
+<lb n="9" />
+<supplied reason="undefined">d&#7771;</supplied>&#7779;&#7789;v&#257; karmm&#257;&#7751;y anek&#257;ny amanuja-sad&#7771;&#347;&#257;ny a<unclear>dbhu</unclear>todbhinna-har&#7779;&#257;</l>
+<l>
+bh<supplied reason="undefined">&#257;</supplied>vair &#257;s<unclear>v</unclear>&#257;da<unclear>ya</unclear><supplied cert="low" reason="undefined">nta&#7717;</supplied> <seg met="......==.==."><gap quantity="12" reason="illegible" unit="character" /></seg> <supplied reason="undefined">ke</supplied>ciT</l>
+</lg><lg n="cd" type="halfverse"><l>
+<lb n="10" />v&#299;ryyottapt&#257;&#347; ca kecic chara&#7751;am upagat&#257; yasya v&#7771;tte pra&#7751;&#257;me</l>
+<l>
+<supplied reason="omitted">'</supplied>py a<unclear cert="low">rtti</unclear>## <seg met="==.==......==.==.=*"><gap quantity="19" reason="illegible" unit="character" /></seg>
+</l>
+</lg></lg>
+<lg met="mand&#257;kr&#257;nt&#257;" n="4">
+<lg n="ab" type="halfverse">
+<l>
+<lb n="11" />sa&#7747;gr&#257;me&#7779;u sva-bhuja-vijit&#257; nityam ucc&#257;pak&#257;r&#257;&#7717;</l>
+<l>
+&#347;va&#7717; &#347;vo m&#257;na-pra <seg met="....==.==.=*"><gap quantity="12" reason="illegible" unit="character" /></seg>
+</l>
+</lg><lg n="cd" type="halfverse"><l>
+<lb n="12" />to<unclear>&#7779;</unclear>ottu&#7749;gai&#7717; sphu&#7789;a-bahu-rasa-sneha-phullair mmanobhi&#7717;</l>
+<l>
+pa&#347;c&#257;tt&#257;pa&#7747; va <seg met="....==."><gap quantity="7" reason="illegible" unit="character" /></seg> <unclear>masya</unclear> <unclear cert="low">dvi&#7779;anta&#7717;</unclear>
+</l>
+</lg></lg>
+<lg met="&#347;&#257;rd&#363;lavikr&#299;&#7693;ita" n="5">
+<lg n="ab" type="halfverse">
+<l>
+<lb n="13" />udvelodita-b&#257;hu-v&#299;ryya-rabhas&#257;d ekena yena k&#7779;a&#7751;&#257;d</l>
+<l>
+unm&#363;ly&#257;cyuta-n&#257;gasena-g<seg met="..===.==.*"><gap quantity="10" reason="illegible" unit="character" /></seg>
+</l>
+</lg><lg n="cd" type="halfverse"><l>
+<lb n="14" />da&#7751;&#7693;air gr&#257;hayataiva kota-kulaja&#7747; pu&#7779;p&#257;hvaye kr&#299;&#7693;at&#257;</l>
+<l>
+<unclear>s&#363;ryye</unclear><unclear cert="low">ne</unclear> <seg met="..=.="><gap quantity="5" reason="illegible" unit="character" /></seg> <unclear>ta&#7789;a</unclear> <seg met=".===.==.*"><gap quantity="9" reason="illegible" unit="character" /></seg>
+</l>
+</lg></lg>
+<lg met="sragdhar&#257;" n="6">
+<lg n="ab" type="halfverse">
+<l>
+<lb n="15" />dha<unclear>rmma</unclear>-pr&#257;c&#299;ra-bandha&#7717; &#347;a&#347;i-kara-&#347;ucaya&#7717; k&#299;rttaya&#7717; saprat&#257;n&#257;</l>
+<l>
+vaidu&#7779;ya&#7747; tattva-bhedi pra&#347;ama . . #<unclear cert="low">uku</unclear> #<unclear cert="low">y</unclear> <seg met="=."><gap quantity="2" reason="illegible" unit="character" /></seg> <unclear cert="low">mut</unclear># <seg met="=."><gap quantity="2" reason="illegible" unit="character" /></seg> t&#257;<unclear>rttham</unclear>
+</l>
+</lg><lg n="cd" type="halfverse"><l>
+<lb n="16" />
+<supplied cert="low" reason="undefined">a</supplied><unclear>ddhye</unclear><unclear cert="low">ya&#7717; s&#363;kta-</unclear>m&#257;rgga&#7717; kavi-mati-vibhavots&#257;ra&#7751;a&#7747; c&#257;pi k&#257;vya&#7747;</l>
+<l>
+ko nu sy&#257;<unclear>d</unclear> yo <unclear>s</unclear>ya na sy&#257;<unclear>d gu&#7751;a i</unclear>ti v<unclear>i</unclear>du&#7779;&#257;&#7747; dhy&#257;na-p&#257;tra&#7747; ya eka&#7717;
+</l>
+</lg></lg>
+<p>
+<lb n="17" />
+tasya vividha-samara-&#347;at&#257;vatara&#7751;a-dak&#7779;asya sva-bhuja-bala-par&#257;kkramaika-bandho&#7717; par&#257;kkram&#257;&#7749;kasya para&#347;u-&#347;ara-&#347;a&#7749;ku-&#347;akti-pr&#257;s-&#257;si-tomara-
+<lb n="18" />
+<unclear>bh</unclear>ind<unclear>i</unclear>p&#257;la-n<supplied reason="undefined">&#257;</supplied>r&#257;ca-vaitastik&#257;dy-aneka-prahara&#7751;a-vir&#363;&#7693;h&#257;kula-vra&#7751;a-&#347;at&#257;&#7749;ka-&#347;obh&#257;-samudayopacita-k&#257;ntatara-var&#7779;ma&#7751;a&#7717;
+<lb n="19" />
+kausalaka-mahendra-m&#257;h<supplied reason="undefined">&#257;</supplied>k&#257;nt&#257;raka-vy&#257;ghrar&#257;ja-kaur&#257;&#7735;aka-ma&#7751;&#7789;ar&#257;ja-pai&#7779;&#7789;apuraka-mahendragiri-kau&#7789;&#7789;&#363;raka-sv&#257;midatt-aira&#7751;&#7693;apallaka-damana-ka&#241;ceyaka-vi&#7779;&#7751;ugop&#257;vamuktaka-
+<lb n="20" />
+n&#299;lar&#257;ja-vai&#7749;geyaka-hastivarmma-p&#257;lakkakograsena-daivar&#257;&#7779;&#7789;raka-kubera-kausthalapuraka-dhana&#241;jaya-prabh&#7771;ti-sarvva-dak&#7779;i&#7751;&#257;patha-r&#257;ja-graha&#7751;a-mok&#7779;&#257;nugraha-janita-prat&#257;ponmi&#347;ra-m&#257;h&#257;bh&#257;gyasya
+<lb n="21" />
+rudradeva-matila-n&#257;gadatta-candravarmma-ga&#7751;apatin&#257;ga-n&#257;gasen-&#257;cyutanandi-balavarmm&#257;dy-anek&#257;ryy&#257;vartta-r&#257;ja-prasabhoddhara&#7751;odv&#7771;tta-prabh&#257;va-mahata&#7717; paric&#257;rak&#299;k&#7771;ta-sarvv&#257;&#7789;avika-r&#257;jasya
+<lb n="22" />
+samata&#7789;a-&#7693;av&#257;ka-k&#257;mar&#363;pa-nep&#257;la-kartt&#7771;pur&#257;di-pratyanta-n&#7771;patibhir mm&#257;lav&#257;rjun&#257;yana-yaudheya-m&#257;drak&#257;bh&#299;ra-pr&#257;rjuna-sanak&#257;n&#299;ka-k&#257;ka-kharaparik&#257;dibhi&#347; ca sarvva-kara-d&#257;n&#257;j&#241;&#257;-kara&#7751;a-pra&#7751;&#257;m&#257;gamana-
+<lb n="23" />
+parito&#7779;ita-praca&#7751;&#7693;a-&#347;&#257;sanasya <space quantity="1" unit="character" /> aneka-bhra&#7779;&#7789;a-r&#257;jyotsanna-r&#257;ja-va&#7747;&#347;a-prati&#7779;&#7789;h&#257;panodbh&#363;ta-nikhila-bh<unclear>uva</unclear>na-vi<unclear>cara</unclear>&#7751;a-<unclear>&#347;r</unclear>&#257;nta-ya&#347;asa&#7717; daivaputra-&#7779;&#257;hi-&#7779;&#257;h&#257;nu&#7779;&#257;hi-&#347;aka-muru&#7751;&#7693;aih saimha&#7735;ak&#257;dibhi&#347; ca
+<lb n="24" />
+sarvva-dv&#299;pa-v&#257;sibhir &#257;tma-nivedana-kanyop&#257;yana-d&#257;na-garutmad-a&#7749;ka-svavi&#7779;aya-bhukti-&#347;&#257;sa<unclear>na-y</unclear>&#257;can&#257;dy-up&#257;ya-sev&#257;-k&#7771;ta-b&#257;hu-v&#299;ryya-prasara-dhara&#7751;i-bandhasya p<sic>ri</sic>thivy&#257;m apratirathasya
+<lb n="25" />
+sucarita-&#347;at&#257;la&#7749;k&#7771;t&#257;neka-gu&#7751;a-ga&#7751;otsiktibhi&#347; cara&#7751;a-ta&#7735;a-pram&#7771;&#7779;&#7789;&#257;nya-narapati-k&#299;rtte&#7717; s&#257;ddhv-as&#257;dh&#363;daya-pralaya-hetu-puru&#7779;asy&#257;cintyasya bhakty-avanati-m&#257;tra-gr&#257;hya-m&#7771;du-h&#7771;dayasy&#257;nukamp&#257;vato <supplied reason="omitted">'</supplied>neka-go-&#347;ata-sahasra-prad&#257;yina<unclear>&#7717;</unclear>
+<lb n="26" />
+k<unclear>&#7771;</unclear>pa&#7751;a-d&#299;n&#257;n&#257;th&#257;tura-janoddhara&#7751;a-sa<unclear>t</unclear>tra-d&#299;k&#7779;&#257;<unclear>bh</unclear>y-upaga<unclear>ta</unclear>-manasa&#7717; samiddhasya vigrahavato lok&#257;nugrahasya dhanada-varu&#7751;endr&#257;ntaka-samasya sva-bhuja-bala-vijit&#257;neka-narapati-vibhava-pratyarppa&#7751;&#257;-nitya-vy&#257;p&#7771;t&#257;yukta-puru&#7779;asya
+<lb n="27" />
+ni&#347;ita-vidagdha-mati-g&#257;ndharvva-la&#7735;itair vr&#299;&#7693;ita-trida&#347;apatiguru-tumburu-n&#257;rad&#257;der vvidvaj-jan-opa<unclear>j</unclear>&#299;vy&#257;neka-k&#257;vya-kkriy&#257;bhi&#7717; prati&#7779;&#7789;hita-kavir&#257;ja-&#347;abdasya sucira-stotavy&#257;nek&#257;dbhutod&#257;ra-caritasya
+<lb n="28" />
+l<unclear>au</unclear>ka-samaya-kkriy&#257;nuvidh&#257;na-m&#257;tra-m&#257;nu&#7779;asya loka-dh&#257;mno devasya mah&#257;r&#257;ja-&#347;r&#299;-gupta-prapautrasya mah&#257;r&#257;ja-&#347;r&#299;-gha&#7789;otkaca-pautrasya mah&#257;r&#257;j&#257;dhir&#257;ja-&#347;r&#299;-candragupta-putrasya
+<lb n="29" />
+licchavi-dauhitrasya mah&#257;devy&#257;&#7747; kum&#257;radevy&#257;m ut<choice><sic>ph</sic><corr>p</corr></choice>annasya mah&#257;r&#257;j&#257;dhir&#257;ja-&#347;r&#299;-samudraguptasya sarvva-p&#7771;thiv&#299;-vijaya-janitodaya-vy&#257;pta-nikhil&#257;vanital&#257;&#7747; k&#299;rttim itas trida&#347;apati-
+<lb n="30" />
+bhavana-gaman&#257;v&#257;pta-la&#7735;ita-sukha-vicara&#7751;&#257;m &#257;cak&#7779;&#257;&#7751;a iva bhuvo b&#257;hur ayam ucchrita&#7717; stambha&#7717;<supplied reason="omitted">|</supplied>
+</p>
+<p>yasya|</p>
+<lg met="p&#7771;thv&#299;" n="7">
+<lg n="ab" type="halfverse">
+<l>prad&#257;na-bhuja-vikkrama-pra&#347;ama-&#347;&#257;stra-v&#257;kyodayair</l>
+<l>
+uparyyupari-sa&#241;cayocchritam aneka-m&#257;rgga&#7747; ya&#347;a&#7717;</l>
+</lg><lg n="cd" type="halfverse"><l>
+<lb n="31" />pun&#257;ti bhuvana-traya&#7747; pa&#347;upater jja&#7789;&#257;nta<sic>r-gu</sic>h&#257;-</l>
+<l>
+nirodha-parimok&#7779;a-&#347;&#299;ghram iva p&#257;&#7751;&#7693;u g&#257;&#7749;ga&#7747; <supplied cert="low" reason="lost">paya&#7717;</supplied></l>
+</lg></lg>
+<p>
+etac ca k&#257;vyam e&#7779;&#257;m eva bha&#7789;&#7789;&#257;raka-p&#257;d&#257;n&#257;&#7747; d&#257;sasya sam&#299;pa-parisarppa&#7751;&#257;nugrahonm&#299;lita-mate&#7717;
+<lb n="32" />kh&#257;dya&#7789;ap&#257;kikasya mah&#257;-da&#7751;&#7693;an&#257;yaka-dhruvabh&#363;ti-putrasya s&#257;ndhivigrahika-kum&#257;r&#257;m&#257;tya-ma<supplied reason="lost">h&#257;-da&#7751;&#7693;an&#257;ya</supplied>ka-hari&#7779;e&#7751;asya sarvva-bh&#363;ta-hita-sukh&#257;y&#257;stu||
+</p>
+<space quantity="2" unit="line" />
+<p>
+<lb n="33" />anu&#7779;&#7789;hita&#7747; ca parama-bha&#7789;&#7789;&#257;raka-p&#257;d&#257;nudhy&#257;tena mah&#257;-da&#7751;&#7693;an&#257;yaka-tilabha&#7789;&#7789;akena|
+</p>
+
+</div></body>
+    </text>
+</TEI>
