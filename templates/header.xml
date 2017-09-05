@@ -12,9 +12,9 @@
     <sourceDesc>
         <msDesc>
             <msIdentifier>
-              <msName>#OB:Title#</msName>
-              <idno type="siddham_object_identifier">#OB:Object ID#</idno>
               <repository>#OB:History/Latest/Place#</repository>
+              <idno type="siddham_object_identifier">#OB:Object ID#</idno>
+              <msName>#OB:Title#</msName>
             </msIdentifier>
             <physDesc>
                 <objectDesc>
@@ -22,14 +22,12 @@
                       <support>
                         <material>#OB:Description/material#</material>
                         <objectType>#OB:Description/object type#</objectType>
-                        <extent>
-                          <dimensions unit="cm">
-                            <width>#OB:Description/dim/width#</width>
-                            <height>#OB:Description/dim/height#</height>
-                            <depth>#OB:Description/dim/depth#</depth>
-                          </dimensions>
-                          <measure type="weight" unit="gram">#OB:Description/dim/weight#</measure>
-                        </extent>
+                        <dimensions unit="cm">
+                          <width>#OB:Description/dim/width#</width>
+                          <height>#OB:Description/dim/height#</height>
+                          <depth>#OB:Description/dim/depth#</depth>
+                        </dimensions>
+                        <measure type="weight" unit="gram">#OB:Description/dim/weight#</measure>
                         <p>#OB:Description/Details#</p>
                       </support>
                     </supportDesc>
@@ -44,8 +42,10 @@
                     </layoutDesc>
                 </objectDesc>
                 <handDesc>
-                  <height unit="cm">#IN:Hand/letter size#</height>
-                  <p>#IN:Hand/description#</p>
+                  <handNote>
+                    <height unit="cm">#IN:Hand/letter size#</height>
+                    <p>#IN:Hand/description#</p>
+                  </handNote>
                 </handDesc>
                 <decoDesc>
                   <p>#IN:Layout/decoration#</p>
@@ -56,7 +56,9 @@
                 <origPlace>#OB:History/Created/Place#</origPlace>
                 <origDate>#OB:History/Created/Date#</origDate>
               </origin>
-              <p>#OB:History/Details#</p>
+              <provenance>
+                <p>#OB:History/Details#</p>
+              </provenance>
             </history>
       </msDesc>
     </sourceDesc>

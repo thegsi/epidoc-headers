@@ -1,8 +1,8 @@
 <msFrag>
   <msIdentifier>
-    <msName>#SO:Subtitle#</msName>
     <repository>#SO:History/Latest/Place#</repository>
     <idno type="siddham_object_identifier">#SO:Object ID#</idno>
+    <msName>#SO:Subtitle#</msName>
   </msIdentifier>
   <physDesc>
       <objectDesc>
@@ -10,14 +10,12 @@
             <support>
               <material>#SO:Description/material#</material>
               <objectType>#SO:Description/object type#</objectType>
-              <extent>
-                <dimensions unit="cm">
-                  <width>#SO:Description/dim/width#</width>
-                  <height>#SO:Description/dim/height#</height>
-                  <depth>#SO:Description/dim/depth#</depth>
-                </dimensions>
-                <measure type="weight" unit="gram">#SO:Description/dim/weight#</measure>
-              </extent>
+              <dimensions unit="cm">
+                <width>#SO:Description/dim/width#</width>
+                <height>#SO:Description/dim/height#</height>
+                <depth>#SO:Description/dim/depth#</depth>
+              </dimensions>
+              <measure type="weight" unit="gram">#SO:Description/dim/weight#</measure>
               <p>#SO:Description/Details#</p>
             </support>
           </supportDesc>
